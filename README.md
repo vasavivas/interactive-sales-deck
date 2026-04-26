@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interactive Sales Deck — Dubai Mall
 
-## Getting Started
+## Overview
+An immersive browser-based interactive sales deck built for prospective tenants, sponsors, and event partners for Dubai Mall
 
-First, run the development server:
+Designed as a hybrid of luxury brand storytelling, digideck presentation, and destination experience platform.
+
+Goals:
+- Drive retail leasing interest
+- Support sponsorship conversations
+- Showcase event and venue opportunities
+- Replace fragmented pitch materials with a self-guided interactive tool
+
+---
+
+## Experience Structure
+
+Sections include:
+
+- Cinematic Intro
+- Why This Property
+- Retail Ecosystem
+- Fashion Avenue (Luxury)
+- Dining & Lifestyle
+- Events & Platform
+- Partnership Opportunities
+- Final Conversion CTA
+
+The experience uses non-linear navigation, cinematic media, interactive modules and premium UI patterns.
+
+---
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+- Framer Motion
+
+---
+
+## Design Direction
+
+Inspired by:
+- Digideck
+- Apple
+- Hermès
+- Tesla
+- Dubai Mall
+- Disney / experiential destination storytelling
+
+Design principles:
+- Cinematic storytelling
+- Premium minimal UI
+- Dark-to-light narrative progression
+- Modular expandable architecture
+
+---
+
+## Expandable Modules
+
+Prototype supports scalable submodules including:
+- Leasing opportunities
+- Sponsorship pathways
+- Venue booking modules
+
+Architecture designed for future expansion.
+
+---
+
+## AI Usage
+
+AI was used for:
+- Concept development
+- Visual ideation
+- Image / video prompt generation
+- Experience prototyping
+- Interaction exploration
+
+AI-generated assets were blended with public destination references.
+
+---
+
+## Performance
+
+Focused on:
+- Lazy-loaded assets
+- Optimized imagery
+- Lightweight animations
+- Responsive behavior
+- Lighthouse performance optimization
+
+---
+
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deployed via Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What I'd Expand Next
 
-## Deploy on Vercel
+With more time:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Deeper venue modules
+- Sponsorship configurator
+- Interactive leasing pathways
+- Live data modules
+- Richer video storytelling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Author
+
+Vasavi

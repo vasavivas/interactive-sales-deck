@@ -24,3 +24,44 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Smooth scroll already handled by Lenis */
+@keyframes marquee{
+from{transform:translateX(0);}
+to{transform:translateX(-50%);}
+}
+
+.animate-marquee{
+animation:marquee 22s linear infinite;
+}
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+:root {
+  --font-heading: var(--font-geist-sans);
+  --font-body: var(--font-geist-sans);
+  --bg-dark: #000;
+  --text-light: #fff;
+  --text-muted: #a1a1aa;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-family: var(--font-body);
+  opacity: 0.7;
+}
+.btn-primary {
+  @apply px-6 py-3 bg-white text-black transition-all duration-300 hover:scale-105;
+}
+
+.btn-outline {
+  @apply px-6 py-3 border border-white/40 text-white transition hover:border-white;
+}
+
+.card {
+  @apply bg-white/10 backdrop-blur-lg border border-white/10 p-8 transition-all duration-300 hover:scale-105;
+}
