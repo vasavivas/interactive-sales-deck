@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Interactive Sales Deck — Dubai Mall
 
 ## Overview
@@ -129,3 +130,6 @@ With more time:
 ## Author
 
 Vasavi
+=======
+# interactive-sales-deck
+>>>>>>> 7c03ea740fe37eda174a11a08d6924f67a047015
