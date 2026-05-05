@@ -24,7 +24,7 @@ export default function Retail() {
   return (
     <section
       id="retail"
-      className="bg-[#f5f5f5] min-h-screen px-6 md:px-12 lg:px-20 py-24"
+      className="bg-[#f5f5f5] h-screen w-full flex flex-col justify-center px-6 md:px-12 lg:px-20 overflow-hidden relative"
     >
       {/* HEADER */}
       <div className="max-w-3xl">

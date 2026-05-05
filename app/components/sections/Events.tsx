@@ -37,7 +37,7 @@ export default function EventsPlatform() {
   return (
     <section
       id="events"
-      className="bg-[#f7f2e9] text-[#111] py-32 overflow-hidden"
+      className="bg-[#f7f2e9] text-[#111] overflow-hidden"
     >
 
       <div className="max-w-7xl mx-auto px-8 md:px-12 lg:px-16">

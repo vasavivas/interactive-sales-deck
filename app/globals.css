@@ -65,3 +65,47 @@ p {
 .card {
   @apply bg-white/10 backdrop-blur-lg border border-white/10 p-8 transition-all duration-300 hover:scale-105;
 }
+/* globals.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* విండో స్క్రోల్ అవ్వకూడదు */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.deck-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+/* .slide-section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+} */
+.deck-container::-webkit-scrollbar { 
+  display: none;
+}
+
+.slide-section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden; 
+} 
